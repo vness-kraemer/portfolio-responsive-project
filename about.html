@@ -15,13 +15,17 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>About me</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>About me - Vanessa Krämer</title>
+    <meta
+      name="description"
+      content="About Vanessa Krämer, a front-end developer based in Europe"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Vanessa Krämer</a>
+        <a class="navbar-brand" href="/" title="Homepage">Vanessa Krämer</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,60 +40,70 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/" tilte="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
+              <a
+                class="nav-link active"
+                href="/about.html"
+                title="About Vanessa Krämer"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Vanessa Krämer"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="mt-5">
-      <h1 class="text-center">About me</h1>
-      <h3 class="text-center">Front-end developer from Germany 🇩🇪</h3>
-      <div class="about-paragraphs text-center">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
-        </p>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img
-              src="images/yoga.png"
-              class="img-fluid p-2 shadow rounded"
-              title="Yoga Website"
-            />
-          </div>
-          <div class="col-sm-4">
-            <img
-              src="images/weather.png"
-              class="img-fluid p-2 shadow rounded"
-              tile="Weather App"
-            />
-          </div>
-          <div class="col-sm-4">
-            <img
-              src="images/yogurt.png"
-              class="img-fluid p-2 shadow rounded"
-              title="Yogurt Website"
-            />
-          </div>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from Toulouse, France</h3>
+    <div class="about-paragraphs text-center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="/images/yoga.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Yoga project"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/images/weather.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Weather project"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Yogurt project"
+          />
         </div>
       </div>
-      <div id="contact" class="mt-5 contact-me">
-        <h2 class="text-center">📮 Contact me</h2>
-        <a href="mailto:vanessa.josy@icloud.com" class="email-link text-center"
-          >vanessa.josy@icloud.com
-        </a>
-      </div>
+    </div>
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
+      <a href="mailto:vanessa.josy@icloud.com" class="email-link">
+        vanessa.josy@icloud.com</a
+      >
     </div>
   </body>
 </html>
